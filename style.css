@@ -1,4 +1,4 @@
-/* ======= Cài đặt chung ======= */
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +8,6 @@ body {
     text-align: center;
 }
 
-/* ======= Phần Header ======= */
 .hero {
     background: url('wavy-black-white-background.jpg') center/cover no-repeat;
     height: 300px;
@@ -29,7 +28,6 @@ body {
     margin-top: 10px;
 }
 
-/* ======= Menu điều hướng ======= */
 .navbar {
     display: flex;
     justify-content: center;
@@ -69,7 +67,7 @@ body {
     transform: scale(1.1);
 }
 
-/* ======= Tiêu đề chung cho từng phần ======= */
+
 .container h2 {
     text-align: center;
     font-size: 24px;
@@ -80,7 +78,7 @@ body {
     gap: 10px;
 }
 
-/* ======= Phần THÔNG TIN ======= */
+
 .info-section {
     background-color: white;
     padding: 40px 0;
@@ -97,7 +95,6 @@ body {
     gap: 40px;
 }
 
-/* Hộp Thông tin cá nhân & Mục tiêu nghề nghiệp */
 .personal-info, .career-goal {
     flex: 1;
     background: #ffffff;
@@ -107,7 +104,7 @@ body {
     text-align: left;
 }
 
-/* ======= Phần LÝ LỊCH ======= */
+
 .resume-section {
     background-color: white;
     padding: 40px 0;
@@ -124,7 +121,6 @@ body {
     gap: 40px;
 }
 
-/* Đồng bộ kích thước 3 khung chính */
 .education-box, .experience-box, .skills-box {
     flex: 1;
     background: #ffffff;
@@ -133,7 +129,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Căn giữa 2 phần Sở thích & Ngôn ngữ */
+
 .bottom-section {
     display: flex;
     justify-content: center;
@@ -149,7 +145,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* ======= Phần DỰ ÁN ======= */
 .projects-section {
     background-color: white;
     padding: 40px 0;
@@ -176,20 +171,19 @@ body {
     text-align: center;
 }
 
-/* Hình ảnh dự án */
+
 .project-box img {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 15px;
 }
 
-/* Hiệu ứng hover */
+
 .project-box:hover {
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 
-/* ======= Phần THÔNG TIN LIÊN LẠC ======= */
 .contact-section {
     background: white;
     text-align: center;
@@ -202,7 +196,7 @@ body {
     margin: 40px auto;
 }
 
-/* ======= Danh sách kỹ năng, sở thích, ngôn ngữ ======= */
+
 .skills-list, .hobbies-list, .languages-list {
     list-style: none;
     padding: 0;
@@ -217,13 +211,13 @@ body {
     font-size: 16px;
 }
 
-/* Hiệu ứng hover */
+
 .skills-list li:hover, .hobbies-list li:hover, .languages-list li:hover {
     transform: scale(1.03);
     transition: 0.3s ease-in-out;
 }
 
-/* ======= Phần Mạng Xã Hội ======= */
+
 .social-section {
     text-align: center;
     padding: 20px 0;
